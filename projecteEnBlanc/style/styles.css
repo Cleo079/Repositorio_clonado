@@ -1,0 +1,38 @@
+header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #3a3939;
+    justify-content: space-between;
+}
+
+/*Navigation Bar*/
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+  
+nav li {
+    margin-left: 20px;
+}  
+nav a {
+    color: aquamarine;
+    text-decoration: none;
+}
+nav a:hover{
+    color: palegoldenrod;
+}
+.active{
+    color: palegoldenrod;
+}
+.active:hover{
+    color: palevioletred;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: carlito, sans-serif;
+    background-color: rgb(115, 124, 90);
+}
