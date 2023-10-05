@@ -1,38 +1,123 @@
-header {
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    background-color: #3a3939;
-    justify-content: space-between;
+body{
+    background-image: url("https://cdn.discordapp.com/attachments/821868428985630772/1114981674296549406/unknown.png");
+    background-size: 100%;
+    color: pink;
+    font-family: carlito;
+}
+form{
+    text-align: center;
 }
 
-/*Navigation Bar*/
-nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    list-style: none;
+div{
+    text-align: center;
+    margin-left: 42%;
 }
+
+.h1{
+    font-size: 42px;
+}
+
+.rosita{
+    color: pink;
+    font-size: 29px;
+}
+
+.rojito{
+    color: orangered;
+}
+
+ul {
+    list-style-type: none;
+}
+
+input {
+    color: orangered;
+}
+
+
+select {
+    color: pink;
+    background: #f1f1f1;
+}
+
+input [type=submit] {
+    cursor: pointer;
+}
+
+.li {
+    float:left;
+    display: inline;
+}
+
+.color {
+    color: white;
+}
+
+li a {
+    color: #0fb361;
+}
+
+li a:hover {
+    background: url("");
+}
+
+.body:hover{
+    animation: normal infinite ccolor 3s;
+}
+
+::selection{
+    color: green;
+}
+
+
+@keyframes ccolor{
+     
+    0%{
+        background-color: #4CAF50;
+    }
+ 
+    10%{
+        background-color: #bccf51;
+    }
+ 
+    20%{
+        background-color: #c09727;
+    }
+ 
+    30%{
+        background-color: #c47c11;
+    }
+ 
+    40%{
+        background-color: #bd5510;
+    }
+ 
+    50%{
+        background-color: #92360b;
+    }
+ 
+    60%{
+        background-color: #ac0a0a;
+    }
+ 
+    70%{
+        background-color: #800c80;
+    }
+ 
+    80%{
+        background-color: #0d3ca1;
+    }
   
-nav li {
-    margin-left: 20px;
-}  
-nav a {
-    color: aquamarine;
-    text-decoration: none;
-}
-nav a:hover{
-    color: palegoldenrod;
-}
-.active{
-    color: palegoldenrod;
-}
-.active:hover{
-    color: palevioletred;
-}
-body{
-    margin: 0;
-    padding: 0;
-    font-family: carlito, sans-serif;
-    background-color: rgb(115, 124, 90);
+    85%{
+        background-color: #0da1ac;
+    }
+
+    90%{
+        background-color: #0d9e7f;
+    }
+ 
+    95%{
+        background-color: #0fb361;
+    }
+
 }
